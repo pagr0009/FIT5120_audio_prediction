@@ -14,7 +14,6 @@ from flask_restful import Api, Resource, reqparse
 import librosa
 import numpy as np
 from pickle5 import pickle
-import os
 
 app = Flask(__name__)
 # api = Api(app)
