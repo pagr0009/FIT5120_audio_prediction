@@ -11,8 +11,6 @@ import numpy as np
 import flask
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
-import librosa
-import numpy as np
 from pickle5 import pickle
 
 app = Flask(__name__)
