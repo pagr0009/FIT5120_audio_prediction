@@ -7,5 +7,4 @@ numpy
 Flask-RESTful==0.3.9
 Flask==2.1.0
 librosa
-os-sys
 dropbox
