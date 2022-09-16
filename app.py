@@ -13,7 +13,7 @@ from flask import Flask
 from flask_restful import Api, Resource, reqparse
 import librosa
 import numpy as np
-import pickle
+from pickle5 import pickle
 import os
 
 app = Flask(__name__)
