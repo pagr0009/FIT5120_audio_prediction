@@ -103,8 +103,9 @@ def specie_pred():
     #print(pred)
     return {'class': pred}
 
-@app.route('/', methods = ['PUT'])
+@app.route('/', methods = ['GET'])
 def try():
     return {"home": "ok"}
+
 if __name__ == "__main__":
     app.run(debug = True)
