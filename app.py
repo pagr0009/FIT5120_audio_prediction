@@ -12,6 +12,7 @@ import flask
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
 import pickle
+from tensorflow.python.keras.backend import set_session
 
 app = Flask(__name__)
 TOKEN = 'sl'+'.BPZXktupEgM6-6ZSgOtdLbX0KjlK9CF6RX7AMdxcZj' + '-' + 'uZZfdmmIUB9dqMGzCMan5X23nWRd1QavxGS3w0Z' + '-' +'GAawaX84ZuikTYXspTBK81ORKEsmQ08KBR5Crts0yvtbXBbBlwxxv17A'
