@@ -115,6 +115,7 @@ def specie_pred():
 
 @app.route('/', methods = ['GET'])
 def trial():
+    #print(here)
     return {"home": "ok"}
 
 
