@@ -100,7 +100,7 @@ def specie_pred():
         pred = 'Not Specified'
     else:
         pred = 'White Napped'
-
+    #print(pred)
     return {'class': pred}
 
 
