@@ -104,7 +104,7 @@ def specie_pred():
     return {'class': pred}
 
 @app.route('/', methods = ['GET'])
-def try():
+def trial():
     return {"home": "ok"}
 
 if __name__ == "__main__":
