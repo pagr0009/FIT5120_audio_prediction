@@ -11,7 +11,7 @@ import numpy as np
 import flask
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
-from pickle5 import pickle
+import pickle
 
 app = Flask(__name__)
 TOKEN = 'sl'+'.BPZXktupEgM6-6ZSgOtdLbX0KjlK9CF6RX7AMdxcZj' + '-' + 'uZZfdmmIUB9dqMGzCMan5X23nWRd1QavxGS3w0Z' + '-' +'GAawaX84ZuikTYXspTBK81ORKEsmQ08KBR5Crts0yvtbXBbBlwxxv17A'
